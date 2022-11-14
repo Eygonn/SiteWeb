@@ -1,0 +1,13 @@
+body {
+    line-height: 1.75;
+}
+
+a {
+    color: aliceblue;
+    
+}
+
+a img{
+    position: absolute;
+    border: 0px;
+}
