@@ -23,3 +23,9 @@ body.background-style {
     width: 50%;
     height: 50%;
 }
+
+.titre-main-page {
+    text-align: center; 
+    font-family: optimus; 
+    font-size: 30px;
+}
