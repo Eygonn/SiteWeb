@@ -1,0 +1,16 @@
+#intro{
+    padding: 50px;
+}
+
+.text-accueil {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: optimus; 
+}
+
+#text-sommaire{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: optimus; 
+}
