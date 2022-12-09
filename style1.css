@@ -6,11 +6,26 @@
     text-align: center;
     font-size: 25px;
     color: rgb(255, 255, 255);
-    font-family: optimus; 
+    font-family: ring; 
 }
 
 #text-sommaire{
     font-size: 25px;
-    color: rgb(255, 255, 255);
-    font-family: optimus; 
+    color: white;
+    font-family: ring;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(205, 255, 227);
+}
+
+a:active {
+    color: rgb(205, 255, 227);
 }
