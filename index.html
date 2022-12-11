@@ -9,58 +9,92 @@
     <link rel="stylesheet" type="text/css" href="Font\stylesheet.css" media="all">
     <link href="balise.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slider.css" media="all">
+    <link rel="stylesheet" href="navbar.css">
 
 
     <title>Le Seigneur des Anneaux</title>
 </head>
 <body>
+    <nav class="navbar">
+
+        <!-- LOGO -->
+        <div class="logo">LSDA - Wiki</div>
+
+        <!-- NAVIGATION MENU -->
+
+        <ul class="nav-links">
+
+            <input type="checkbox" id="checkbox_toggle" />
+
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+
+        <div class="menu">
+
+            <li><a href="#personnages">Personnages</a></li>
+
+            <li><a href="#lieux">Lieux</a></li>
+
+            <li><a href="#races">Races</a></li>
+
+        </div>
+        </ul>
+    </nav>
     <div class="accueil">
         <p class="text-accueil" id="intro">Bienvenue sur le Wiki Le Seigneur des Anneaux ! 
-            Ce wiki traite du Seigneur des Anneaux, du Hobbit, et de toutes les autres oeuvres de J.R.R. 
-            Tolkien ainsi que de ses adaptations. Vous pourrez trouver dans cette encyclopedie 
-            collaborative de nombreux articles que vous pourrez modifier (en corrigeant les fautes 
-            d'orthographe ou en rajoutant des informations). 
-            Vous avez meme la possibilite de creer des pages et de nous rejoindre dans les Discussions ! 
+            Ce wiki traite du Seigneur des Anneaux l'oeuvre principale de J.R.R Tolkien. Le site est encore en construction mais
+            vous avez déjà accès aux personnages principaux ainsi qu'au lieux
             Bonne visite ! </p>
         <div class="sommaire" id="text-sommaire" >
-            <ul> <p>Sommaire</p>
-                <li> <a href="#personnages"> Personnages</a></li>
-                <li> <a href="#lieux"> Lieux</a></li>
-                <li> <a href="#races"> Races</a></li>
-                <li> <a href="#objets"> Objets</a></li>
-                <li> <a href="#films"> Films</a></li>
+            <ul> <p>Sommaire :</p>
+                <li> <a href="#histoire">• Histoire</a></li>
+                <li> <a href="#personnages">• Personnages</a></li>
+                <li> <a href="#lieux">• Lieux</a></li>
+                <li> <a href="#races">• Races (en construction)</a></li>
             </ul>
         </div>
     </div>
     <div class="main-container">
+        <div id="histoire" class="histoire-container">
+            <br> <br> <br> 
+            <h1 class="text-resume">C'est l'histoire du jeune et timide Hobbit, Frodon Sacquet, qui hérita d'un anneau. Bien loin d'être une simple babiole, il s'agit de l'Anneau Unique, un instrument de pouvoir absolu qui permettrait à Sauron, le Seigneur des ténèbres, de régner sur la Terre du Milieu et de réduire en esclavage ses peuples. À moins que Frodon, aidé d'une Compagnie constituée de Hobbits, d'Hommes, d'un Magicien, d'un Nain, et d'un Elfe, ne parvienne à emporter l'Anneau à travers la Terre du Milieu jusqu'à la Crevasse du Destin, lieu où il a été forgé, et à le détruire pour toujours. Un tel périple signifie s'aventurer très loin en Mordor, les terres du Seigneur des ténèbres, où est rassemblée son armée d'Orques maléfiques... La Compagnie doit non seulement combattre les forces extérieures du mal mais aussi les dissensions internes et l'influence corruptrice qu'exerce l'Anneau lui-même.
+                L'issue de l'histoire à venir est intimement liée au sort de la Compagnie. 
+            </h1>
+        </div>
         <div class="personnage-container">
             <h3 class="text-accueil" id="personnages">Les personnages</h3>
             <div class="container">
                 <div class="slideshow">
                 <div id="slide-1" class="slide">
-                    <a href="#slide-5"></a>
-                    <a href="#slide-2"></a>
+                    <a class="fleche" href="#slide-5"></a>
+                    <a class="fleche" href="#slide-2"></a>
                     <img src="images\personnages\frodon.jpg" />
+                    <div class="page-ext"><a class="lien" href="personnages\frodon.html"></a></div>
                 </div>
                 <div id="slide-2" class="slide">
-                    <a href="#slide-1"></a>
-                    <a href="#slide-3"></a>
+                    <a class="fleche" href="#slide-1"></a>
+                    <a class="fleche" href="#slide-3"></a>
                     <img src="images\personnages\gandalf.jpg" />
+                    <div class="page-ext"><a class="lien" href="personnages\gandalf.html"></a></div>
                 </div>
                 <div id="slide-3" class="slide">
-                    <a href="#slide-2"></a>
-                    <a href="#slide-4"></a>
+                    <a class="fleche" href="#slide-2"></a>
+                    <a class="fleche" href="#slide-4"></a>
                     <img src="images\personnages\aragorn.jpg" />
+                    <div class="page-ext"><a class="lien" href="personnages\aragorn.html"></a></div>
                 </div>
                 <div id="slide-4" class="slide">
-                    <a href="#slide-3"></a>
-                    <a href="#slide-5"></a>
+                    <a class="fleche" href="#slide-3"></a>
+                    <a class="fleche" href="#slide-5"></a>
                     <img src="images\personnages\legolas.jpg" />
+                    <div class="page-ext"><a class="lien" href="personnages\legolas.html"></a></div>
                 </div>
                 <div id="slide-5" class="slide">
-                    <a href="#slide-4"></a>
-                    <a href="#slide-1"></a>
+                    <a class="fleche" href="#slide-4"></a>
+                    <a class="fleche" href="#slide-1"></a>
                     <img src="images\personnages\sauron.jpg" />
+                    <div class="page-ext"><a class="lien" href="personnages\sauron.html"></a></div>
                 </div>
                 </div>
             </div>
@@ -71,35 +105,33 @@
                 <div class="container">
                     <div class="slideshow">
                     <div id="slide-6" class="slide">
-                        <a href="#slide-8"></a>
-                        <a href="#slide-7"></a>
+                        <a class="fleche" href="#slide-8"></a>
+                        <a class="fleche" href="#slide-7"></a>
                         <img src="images\lieux\comte.jpg" />
+                        <div class="page-ext"><a class="lien" href="lieux\comte.html"></a></div>
                     </div>
                     <div id="slide-7" class="slide">
-                        <a href="#slide-6"></a>
-                        <a href="#slide-8"></a>
+                        <a class="fleche" href="#slide-6"></a>
+                        <a class="fleche" href="#slide-8"></a>
                         <img src="images\lieux\milieu.jpg" />
+                        <div class="page-ext"><a class="lien" href="lieux\tdm.html"></a></div>
                     </div>
                     <div id="slide-8" class="slide">
-                        <a href="#slide-7"></a>
-                        <a href="#slide-6"></a>
+                        <a class="fleche" href="#slide-7"></a>
+                        <a class="fleche" href="#slide-6"></a>
                         <img src="images\lieux\mordor.jpg" />
+                        <div class="page-ext"><a class="lien" href="lieux\mordor.html"></a></div>
                     </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="race-container">
-            <h3 id="races"> Races</h3>
+            <h3 id="races"></h3>
             <p>
 
             </p>
         </div>
-        <div class="objet-container">
-            <h3 id="objets"> Objets</h3>
-            <p>
-            
-            </p>
         </div>
     </div>
 

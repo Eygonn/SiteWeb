@@ -17,10 +17,12 @@
     font-family: ring; 
 }
 
-#text-sommaire{
-    font-size: 25px;
+#biographie{
+    font-size: 18px;
     color: white;
-    font-family: ring;
+    font-family: 'Rubik', sans-serif;
+    width: 50vw;
+    padding-left: 50px;
 }
 
 a:link {

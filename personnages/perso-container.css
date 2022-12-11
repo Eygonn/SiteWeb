@@ -1,0 +1,30 @@
+.main-container{
+    padding-top: 54%;
+    height: 100%;
+    width: 100%;
+    position: static;
+}
+
+.resume-container{
+    position: relative;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1418px;
+    
+}
+
+.description {
+    top: -259px;
+    position: relative;
+    clear: right;
+    float: right;
+    margin: 20px 40px 20px 20px;
+    width: 190px;
+}
+
+.contenue{
+    border: 1px solid;
+    
+}
+

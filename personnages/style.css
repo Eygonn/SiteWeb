@@ -1,0 +1,51 @@
+body.background-style {
+    background-color: #141419;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+.background-image {
+    height: max-content;
+    margin-bottom: auto;
+    position: fixed;
+    width: calc(100% - 8px);   
+    background-position: top;
+    background-size: contain;
+    background-image: url("images\background.jpg");
+}
+
+.accueil {
+    top: 41%;
+    right: 68%;
+    object-fit: contain;
+    width: 50%;
+    height: 50%;
+}
+
+.titre-main-page {
+    text-align: center; 
+    font-family: optimus; 
+    font-size: 30px;
+}
+
+.description {
+    clear: right;
+    float: right;
+    margin: 20px 40px 20px 20px;
+    width: 20%;
+}
+
+table {
+    line-height: 1.2em;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:50%;
+    border-collapse: collapse;
+}
+
+.contenue{
+    border: 1px solid;
+    
+}

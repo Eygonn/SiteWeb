@@ -1,8 +1,7 @@
 .accueil {
-    top: 0%;
-    padding-top: 45%;
-    height: 500px;
-    width: 100%;
+    top: 100vh;
+    height: 50vh;
+    width: 100vw;
     position: absolute;
     margin: 0;
     border: 100px;
@@ -10,8 +9,8 @@
 
 .sommaire{
     top: 900px;
-    height: 300px;
-    width: 25%;
+    height: 50vh;
+    width: 12vw;
     bottom: 0px;
     position: static;
     margin: auto;
@@ -19,36 +18,50 @@
 }
 
 .main-container{
-    padding-top: 83%;
-    height: 100%;
-    width: 100%;
-    position: static;
+    top: 30%;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.histoire-container{
+    top: 137px;
+    position: relative;
+    width: 100vw;
+    height: 610px;
 }
 
 .personnage-container{
-    top: 0;
+    top: 142px;
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 610px;
 }
 
 .lieux-container{
-    top: 300px;
+    top: 176px;
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 600px;
 }
 
 .race-container{
     top: 1000px;
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 600px;
 }
 
-.objet-container{
-    top: 1500px;
+.page-ext {
     position: relative;
+    z-index: 9;
+    margin: 0 auto;
+    top: -82%;
+    width: 70%;
+    height: 70%;
+}
+
+.slideshow .slide a.lien {
     width: 100%;
-    height: 600px;
+    height: 100%;
 }
