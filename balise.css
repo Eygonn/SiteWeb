@@ -4,7 +4,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
-    max-width: 100%;
+    max-width: 100vw;
 }
 
 html, body{
@@ -29,13 +29,15 @@ img {
     object-fit: contain;
 }
 
-li {
-    list-style: none;
-}
+
 
 
 
 @media only screen and (max-width: 600px) {
+    body {
+        width: 100vw;
+    }
+
     .text-accueil {
         font-size: 10px;
     }

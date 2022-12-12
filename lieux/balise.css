@@ -43,6 +43,7 @@ tr{
 @media only screen and (max-width: 600px) {
     #biographie{
         font-size: 9px;
+        width: 254px;
     }
 
     .description{
